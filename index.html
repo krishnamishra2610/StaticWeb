@@ -6,6 +6,7 @@
   <title>PROJECT ONE | Home page</title>
   <link rel="stylesheet" href="style/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -13,10 +14,13 @@
 
   
       <div class="branding">
-        <h1><span class="highlight"> Krishna</span> Mishra</h1>
+        <h1><span class="highlight">  Krishna</span> Mishra</h1>
       </div>
       <nav>
-        <ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i> 
+        </button>
+        <ul  id="nav-ul">
          
             <li class="current"> <a href="index.html">Home</a></li>
             <li> <a href="about.html">About</a></li>
@@ -24,6 +28,7 @@
           
         </ul>
       </nav>
+    
 
     </div>
   </header>
@@ -31,7 +36,7 @@
   <section id="showcase">
     <div class="container">
       <h1>Front-End Web Development </h1>
-      <p> Nulla ultrices nisi quam, id lacinia enim efficitur sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+      <p> Nulla ultrices nisi quam, id lacinia enim efficitur sit amet. Vestibulum ante ipsum primis.</p>
     </div>
   </section>
 
@@ -68,6 +73,6 @@
   <footer>
     <p>Krishna Mishra , copyright &copy; 2020</p>
   </footer>
-  
+  <script src="app.js"></script>
 </body>
 </html>
